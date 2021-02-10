@@ -1,0 +1,1208 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="173" y="701" width="673" height="333" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Applying the model</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="198" y="918" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 2 - boost object.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Task 2 - boost object.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="198" y="809.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>storedemographicdata.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age0to9" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age10to17" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age18to24" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age25to29" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age30to39" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age40to49" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age50to64" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age65Plus" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdLTHS" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdHSGrad" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdSomeCol" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdAssociate" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdBachelor" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdMaster" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdProfSchl" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdDoctorate" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz1Per" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz2Per" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz3Per" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz4Per" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz5PlusPer" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHIncU25K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc25Kto50K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc50Kto75K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc75Kto100K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc100Kto150K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc150Kto250K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc250KPlus" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopAsian" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopBlack" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopHispanic" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopMulti" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopNativeAmer" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopOther" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopPacIsl" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopWhite" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal0to100K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal100Kto200K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal200Kto300K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal300Kto400K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal400Kto500K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal500Kto750K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal750KPlus" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopDens" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="318" y="810" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Store" selected="True" />
+                <Field field="Age0to9" selected="True" />
+                <Field field="Age10to17" selected="True" />
+                <Field field="Age18to24" selected="True" />
+                <Field field="Age25to29" selected="True" />
+                <Field field="Age30to39" selected="True" />
+                <Field field="Age40to49" selected="True" />
+                <Field field="Age50to64" selected="True" />
+                <Field field="Age65Plus" selected="True" />
+                <Field field="EdLTHS" selected="True" />
+                <Field field="EdHSGrad" selected="True" />
+                <Field field="EdSomeCol" selected="True" />
+                <Field field="EdAssociate" selected="True" />
+                <Field field="EdBachelor" selected="True" />
+                <Field field="EdMaster" selected="True" />
+                <Field field="EdProfSchl" selected="True" />
+                <Field field="EdDoctorate" selected="True" />
+                <Field field="HHSz1Per" selected="True" />
+                <Field field="HHSz2Per" selected="True" />
+                <Field field="HHSz3Per" selected="True" />
+                <Field field="HHSz4Per" selected="True" />
+                <Field field="HHSz5PlusPer" selected="True" />
+                <Field field="HHIncU25K" selected="True" />
+                <Field field="HHInc25Kto50K" selected="True" />
+                <Field field="HHInc50Kto75K" selected="True" />
+                <Field field="HHInc75Kto100K" selected="True" />
+                <Field field="HHInc100Kto150K" selected="True" />
+                <Field field="HHInc150Kto250K" selected="True" />
+                <Field field="HHInc250KPlus" selected="True" />
+                <Field field="PopAsian" selected="True" />
+                <Field field="PopBlack" selected="True" />
+                <Field field="PopHispanic" selected="True" />
+                <Field field="PopMulti" selected="True" />
+                <Field field="PopNativeAmer" selected="True" />
+                <Field field="PopOther" selected="True" />
+                <Field field="PopPacIsl" selected="True" />
+                <Field field="PopWhite" selected="True" />
+                <Field field="HVal0to100K" selected="True" />
+                <Field field="HVal100Kto200K" selected="True" />
+                <Field field="HVal200Kto300K" selected="True" />
+                <Field field="HVal300Kto400K" selected="True" />
+                <Field field="HVal400Kto500K" selected="True" />
+                <Field field="HVal500Kto750K" selected="True" />
+                <Field field="HVal750KPlus" selected="True" />
+                <Field field="PopDens" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="5" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="String" />
+                <Field name="Age0to9" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age10to17" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age18to24" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age25to29" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age30to39" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age40to49" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age50to64" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age65Plus" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdLTHS" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdHSGrad" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdSomeCol" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdAssociate" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdBachelor" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdMaster" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdProfSchl" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdDoctorate" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz1Per" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz2Per" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz3Per" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz4Per" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz5PlusPer" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHIncU25K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc25Kto50K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc50Kto75K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc75Kto100K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc100Kto150K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc150Kto250K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc250KPlus" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopAsian" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopBlack" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopHispanic" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopMulti" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopNativeAmer" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopOther" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopPacIsl" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopWhite" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal0to100K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal100Kto200K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal200Kto300K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal300Kto400K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal400Kto500K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal500Kto750K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal750KPlus" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopDens" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="438" y="810" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Skip</Mode>
+              <N>85</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Skip 1st 85</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="Score">
+            <Position x="606" y="870" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="modelChoice">Local Model</Value>
+              <Value name="score field">
+              </Value>
+              <Value name="is oversampled">False</Value>
+              <Value name="oversampled value">
+              </Value>
+              <Value name="original percent">2</Value>
+              <Value name="log y">False</Value>
+              <Value name="prediction.interval">False</Value>
+              <Value name="interval.level">95</Value>
+              <Value name="append.xdf">False</Value>
+              <Value name="num.records">256000</Value>
+              <Value name="credentials">
+              </Value>
+              <Value name="models">
+              </Value>
+              <Value name="page">
+              </Value>
+              <Value name="errorStatus">
+              </Value>
+              <Value name="modelDetailJSON">
+              </Value>
+              <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+              <Value name="promoteURL">
+              </Value>
+              <Value name="username">
+              </Value>
+              <Value name="model_name">
+              </Value>
+              <Value name="model_owner">
+              </Value>
+              <Value name="apiKey">
+              </Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="762" y="870" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RYZEN5~1\AppData\Local\Temp\Engine_13892_3a7cdbfe7db444309af866ee10f01a2b_\Engine_13064_e349a9c50f93438da1a659af9b038024_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="558" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RYZEN5~1\AppData\Local\Temp\Engine_13892_3a7cdbfe7db444309af866ee10f01a2b_\Engine_13064_1413e61ecf95443d8b13b9415696ad7b_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="414" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\RYZEN5~1\AppData\Local\Temp\Engine_13892_3a7cdbfe7db444309af866ee10f01a2b_\Engine_13064_ad522d95639d43709cc0b6df45752e39_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="690" y="870" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [X_1]&gt;[X_2] AND [X_1]&gt;[X_3] THEN &quot;1&quot; ELSEIF [X_2]&gt;[X_1] AND [X_2]&gt;[X_3] THEN &quot;2&quot; ELSE &quot;3&quot; ENDIF" field="Store profile" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Store profile = IF [X_1]&gt;[X_2] AND [X_1]&gt;[X_3] THEN "1" ELSEIF [X_2]&gt;[X_1] AND [...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="173" y="160" width="1118" height="490" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Model comparison</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="198" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Task 1 results.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="255" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Address" size="255" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="City" size="255" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="State" size="255" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Zip" size="255" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Type" size="255" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Sum_Dry_Grocery" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Sum_Dairy" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Sum_Frozen_Food" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Sum_Meat" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Sum_Produce" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Sum_Floral" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Sum_Deli" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Sum_Bakery" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Sum_General_Merchandise" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total.Sales" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Sum_Dry_Grocery" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Sum_Dairy" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Sum_Frozen_Food" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Sum_Meat" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Sum_Produce" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Sum_Floral" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Sum_Deli" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Sum_Bakery" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Sum_General_Merchandise" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="X._Total.Sales" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Cluster" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 1 results.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="198" y="449.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>storedemographicdata.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age0to9" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age10to17" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age18to24" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age25to29" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age30to39" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age40to49" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age50to64" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="Age65Plus" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdLTHS" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdHSGrad" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdSomeCol" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdAssociate" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdBachelor" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdMaster" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdProfSchl" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="EdDoctorate" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz1Per" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz2Per" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz3Per" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz4Per" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHSz5PlusPer" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHIncU25K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc25Kto50K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc50Kto75K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc75Kto100K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc100Kto150K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc150Kto250K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HHInc250KPlus" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopAsian" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopBlack" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopHispanic" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopMulti" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopNativeAmer" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopOther" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopPacIsl" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopWhite" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal0to100K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal100Kto200K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal200Kto300K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal300Kto400K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal400Kto500K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal500Kto750K" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="HVal750KPlus" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+                <Field name="PopDens" size="254" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="318" y="450.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Store" selected="True" />
+                <Field field="Age0to9" selected="True" />
+                <Field field="Age10to17" selected="True" />
+                <Field field="Age18to24" selected="True" />
+                <Field field="Age25to29" selected="True" />
+                <Field field="Age30to39" selected="True" />
+                <Field field="Age40to49" selected="True" />
+                <Field field="Age50to64" selected="True" />
+                <Field field="Age65Plus" selected="True" />
+                <Field field="EdLTHS" selected="True" />
+                <Field field="EdHSGrad" selected="True" />
+                <Field field="EdSomeCol" selected="True" />
+                <Field field="EdAssociate" selected="True" />
+                <Field field="EdBachelor" selected="True" />
+                <Field field="EdMaster" selected="True" />
+                <Field field="EdProfSchl" selected="True" />
+                <Field field="EdDoctorate" selected="True" />
+                <Field field="HHSz1Per" selected="True" />
+                <Field field="HHSz2Per" selected="True" />
+                <Field field="HHSz3Per" selected="True" />
+                <Field field="HHSz4Per" selected="True" />
+                <Field field="HHSz5PlusPer" selected="True" />
+                <Field field="HHIncU25K" selected="True" />
+                <Field field="HHInc25Kto50K" selected="True" />
+                <Field field="HHInc50Kto75K" selected="True" />
+                <Field field="HHInc75Kto100K" selected="True" />
+                <Field field="HHInc100Kto150K" selected="True" />
+                <Field field="HHInc150Kto250K" selected="True" />
+                <Field field="HHInc250KPlus" selected="True" />
+                <Field field="PopAsian" selected="True" />
+                <Field field="PopBlack" selected="True" />
+                <Field field="PopHispanic" selected="True" />
+                <Field field="PopMulti" selected="True" />
+                <Field field="PopNativeAmer" selected="True" />
+                <Field field="PopOther" selected="True" />
+                <Field field="PopPacIsl" selected="True" />
+                <Field field="PopWhite" selected="True" />
+                <Field field="HVal0to100K" selected="True" />
+                <Field field="HVal100Kto200K" selected="True" />
+                <Field field="HVal200Kto300K" selected="True" />
+                <Field field="HVal300Kto400K" selected="True" />
+                <Field field="HVal400Kto500K" selected="True" />
+                <Field field="HVal500Kto750K" selected="True" />
+                <Field field="HVal750KPlus" selected="True" />
+                <Field field="PopDens" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="5" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="String" />
+                <Field name="Age0to9" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age10to17" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age18to24" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age25to29" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age30to39" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age40to49" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age50to64" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="Age65Plus" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdLTHS" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdHSGrad" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdSomeCol" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdAssociate" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdBachelor" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdMaster" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdProfSchl" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="EdDoctorate" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz1Per" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz2Per" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz3Per" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz4Per" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHSz5PlusPer" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHIncU25K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc25Kto50K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc50Kto75K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc75Kto100K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc100Kto150K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc150Kto250K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HHInc250KPlus" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopAsian" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopBlack" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopHispanic" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopMulti" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopNativeAmer" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopOther" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopPacIsl" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopWhite" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal0to100K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal100Kto200K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal200Kto300K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal300Kto400K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal400Kto500K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal500Kto750K" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="HVal750KPlus" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+                <Field name="PopDens" source="File: C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\storedemographicdata.csv" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="450" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Store" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Store" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Cluster" selected="True" input="Left_" type="V_String" size="19" />
+                    <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings>
+            <Position x="546" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="estimation pct">80</Value>
+              <Value name="validation pct">20</Value>
+              <Value name="rand seed">3</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings>
+            <Position x="678" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model.name">Boost</Value>
+              <Value name="select.target">Cluster</Value>
+              <Value name="select.predictors">Store=False,Address=False,City=False,State=False,Zip=False,Type=False,Sum_Dry_Grocery=False,Sum_Dairy=False,Sum_Frozen_Food=False,Sum_Meat=False,Sum_Produce=False,Sum_Floral=False,Sum_Deli=False,Sum_Bakery=False,Sum_General_Merchandise=False,Total.Sales=False,X._Sum_Dry_Grocery=False,X._Sum_Dairy=False,X._Sum_Frozen_Food=False,X._Sum_Meat=False,X._Sum_Produce=False,X._Sum_Floral=False,X._Sum_Deli=False,X._Sum_Bakery=False,X._Sum_General_Merchandise=False,X._Total.Sales=False,Cluster=False,Age0to9=True,Age10to17=True,Age18to24=True,Age25to29=True,Age30to39=True,Age40to49=True,Age50to64=True,Age65Plus=True,EdLTHS=True,EdHSGrad=True,EdSomeCol=True,EdAssociate=True,EdBachelor=True,EdMaster=True,EdProfSchl=True,EdDoctorate=True,HHSz1Per=True,HHSz2Per=True,HHSz3Per=True,HHSz4Per=True,HHSz5PlusPer=True,HHIncU25K=True,HHInc25Kto50K=True,HHInc50Kto75K=True,HHInc75Kto100K=True,HHInc100Kto150K=True,HHInc150Kto250K=True,HHInc250KPlus=True,PopAsian=True,PopBlack=True,PopHispanic=True,PopMulti=True,PopNativeAmer=True,PopOther=True,PopPacIsl=True,PopWhite=True,HVal0to100K=True,HVal100Kto200K=True,HVal200Kto300K=True,HVal300Kto400K=True,HVal400Kto500K=True,HVal500Kto750K=True,HVal750KPlus=True,PopDens=True</Value>
+              <Value name="use.weights">False</Value>
+              <Value name="select.weights">Sum_Dry_Grocery</Value>
+              <Value name="marginal.plots">False</Value>
+              <Value name="plot.min.importance">2.5</Value>
+              <Value name="type.distribution">False</Value>
+              <Value name="type.continuous">True</Value>
+              <Value name="dist.gaussian">True</Value>
+              <Value name="dist.laplace">False</Value>
+              <Value name="dist.t">False</Value>
+              <Value name="t.df">4</Value>
+              <Value name="type.count">False</Value>
+              <Value name="type.binomial">False</Value>
+              <Value name="dist.bernoulli">True</Value>
+              <Value name="dist.adaboost">False</Value>
+              <Value name="type.multinomial">False</Value>
+              <Value name="n.trees">4000</Value>
+              <Value name="assess.cv">True</Value>
+              <Value name="num.folds">5</Value>
+              <Value name="n.cores">1</Value>
+              <Value name="assess.test">False</Value>
+              <Value name="train.fraction">50.0</Value>
+              <Value name="assess.oob">False</Value>
+              <Value name="bag.fraction">50.0</Value>
+              <Value name="shrinkage">0.0020</Value>
+              <Value name="interaction.depth">1</Value>
+              <Value name="n.minobsinnode">10</Value>
+              <Value name="rand.seed">1</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="918" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="">C:\Users\Ryzen 5 3400g\Desktop\Udacity Capstone\Task 2 - boost object.yxdb</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Task 2 - boost object.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="701" y="209" width="565" height="277" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Tree models</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="11">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1182" y="282" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\RYZEN5~1\AppData\Local\Temp\Engine_13988_5644fae2feba4bc2814aa3ae5e072863_\Engine_13064_1ee0b193dc5545ad98e55d97c4111c7b_.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="14">
+              <GuiSettings Plugin="Decision_Tree">
+                <Position x="726" y="306" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="curPage">Home</Value>
+                  <Value name="curTab">model</Value>
+                  <Value name="curToggle">toggle-main</Value>
+                  <Value name="display.static">True</Value>
+                  <Value name="set_seed_cv">True</Value>
+                  <Value name="showClassificationCV">False</Value>
+                  <Value name="showWhenTreePlotAvailable">True</Value>
+                  <Value name="use.gini">True</Value>
+                  <Value name="use.information">False</Value>
+                  <Value name="usesurrogate.0">True</Value>
+                  <Value name="usesurrogate.1">False</Value>
+                  <Value name="usesurrogate.2">False</Value>
+                  <Value name="total.correct">True</Value>
+                  <Value name="percent.correct">False</Value>
+                  <Value name="model_type">auto</Value>
+                  <Value name="auto">True</Value>
+                  <Value name="classification">False</Value>
+                  <Value name="regression">False</Value>
+                  <Value name="tree_summary">Counts</Value>
+                  <Value name="Counts">True</Value>
+                  <Value name="Proportions">False</Value>
+                  <Value name="tree_plot_size">tree.inches</Value>
+                  <Value name="tree.inches">True</Value>
+                  <Value name="tree.centimeters">False</Value>
+                  <Value name="pruning_plot_size">prune.inches</Value>
+                  <Value name="prune.inches">True</Value>
+                  <Value name="prune.centimeters">False</Value>
+                  <Value name="Model Name">Tree</Value>
+                  <Value name="Y Var">Cluster</Value>
+                  <Value name="X Vars">Age0to9,Age10to17,Age18to24,Age25to29,Age30to39,Age40to49,Age50to64,Age65Plus,EdLTHS,EdHSGrad,EdSomeCol,EdAssociate,EdBachelor,EdMaster,EdProfSchl,EdDoctorate,HHSz1Per,HHSz2Per,HHSz3Per,HHSz4Per,HHSz5PlusPer,HHIncU25K,HHInc25Kto50K,HHInc50Kto75K,HHInc75Kto100K,HHInc100Kto150K,HHInc150Kto250K,HHInc250KPlus,PopAsian,PopBlack,PopHispanic,PopMulti,PopNativeAmer,PopOther,PopPacIsl,PopWhite,HVal0to100K,HVal100Kto200K,HVal200Kto300K,HVal300Kto400K,HVal400Kto500K,HVal500Kto750K,HVal750KPlus,PopDens</Value>
+                  <Value name="model.algorithm">rpart</Value>
+                  <Value name="posClass">
+                  </Value>
+                  <Value name="use.weights">False</Value>
+                  <Value name="select.weights" />
+                  <Value name="splitting_criteria">use.gini</Value>
+                  <Value name="surrogate_use">usesurrogate.0</Value>
+                  <Value name="surrogate_split_criteria">total.correct</Value>
+                  <Value name="min.split">20</Value>
+                  <Value name="min.bucket">7</Value>
+                  <Value name="xval.folds">10</Value>
+                  <Value name="max.depth">20</Value>
+                  <Value name="max.bins">
+                  </Value>
+                  <Value name="set_cp">False</Value>
+                  <Value name="cp">0</Value>
+                  <Value name="rules">False</Value>
+                  <Value name="bands_check">False</Value>
+                  <Value name="bands">10</Value>
+                  <Value name="subset">False</Value>
+                  <Value name="winnow">False</Value>
+                  <Value name="GlobalPruning">False</Value>
+                  <Value name="fuzzyThreshold">False</Value>
+                  <Value name="earlyStopping">False</Value>
+                  <Value name="trials">1</Value>
+                  <Value name="CF">0.25</Value>
+                  <Value name="minCases">2</Value>
+                  <Value name="sample">0</Value>
+                  <Value name="seed">1</Value>
+                  <Value name="use_cv">False</Value>
+                  <Value name="numberFolds">5</Value>
+                  <Value name="numberTrials">3</Value>
+                  <Value name="stratified">False</Value>
+                  <Value name="cv_seed">1</Value>
+                  <Value name="tree.plot">False</Value>
+                  <Value name="Branch Dist">False</Value>
+                  <Value name="tree.in.w">5.5</Value>
+                  <Value name="tree.in.h">5.5</Value>
+                  <Value name="tree.cm.w">13</Value>
+                  <Value name="tree.cm.h">14.95</Value>
+                  <Value name="tree.graph.resolution">1x</Value>
+                  <Value name="tree.pointsize">8</Value>
+                  <Value name="prune.plot">False</Value>
+                  <Value name="prune.in.w">5.5</Value>
+                  <Value name="prune.in.h">5.5</Value>
+                  <Value name="prune.cm.w">13</Value>
+                  <Value name="prune.cm.h">14.95</Value>
+                  <Value name="prune.graph.resolution">1x</Value>
+                  <Value name="prune.pointsize">10</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Tree</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" EngineDll="Macro" EngineDllEntryPoint="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" />
+            </Node>
+            <Node ToolID="15">
+              <GuiSettings>
+                <Position x="726" y="402" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Model Name">Forest</Value>
+                  <Value name="Y Var">Cluster</Value>
+                  <Value name="X Vars">Age0to9 + Age10to17 + Age18to24 + Age25to29 + Age30to39 + Age40to49 + Age50to64 + Age65Plus + EdLTHS + EdHSGrad + EdSomeCol + EdAssociate + EdBachelor + EdMaster + EdProfSchl + EdDoctorate + HHSz1Per + HHSz2Per + HHSz3Per + HHSz4Per + HHSz5PlusPer + HHIncU25K + HHInc25Kto50K + HHInc50Kto75K + HHInc75Kto100K + HHInc100Kto150K + HHInc150Kto250K + HHInc250KPlus + PopAsian + PopBlack + PopHispanic + PopMulti + PopNativeAmer + PopOther + PopPacIsl + PopWhite + HVal0to100K + HVal100Kto200K + HVal200Kto300K + HVal300Kto400K + HVal400Kto500K + HVal500Kto750K + HVal750KPlus + PopDens</Value>
+                  <Value name="Num Trees">500</Value>
+                  <Value name="Custom Num Vars">False</Value>
+                  <Value name="Num Vars">3</Value>
+                  <Value name="model.size">False</Value>
+                  <Value name="total.nodes">100</Value>
+                  <Value name="max.depth">10</Value>
+                  <Value name="node.size">5</Value>
+                  <Value name="replace">True</Value>
+                  <Value name="samp.rate">100</Value>
+                  <Value name="inches">True</Value>
+                  <Value name="in.w">5.50</Value>
+                  <Value name="in.h">5.50</Value>
+                  <Value name="centimeters">False</Value>
+                  <Value name="cm.w">13.00</Value>
+                  <Value name="cm.h">14.95</Value>
+                  <Value name="graph.resolution">1x</Value>
+                  <Value name="pointsize">10</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <Dependencies>
+                  <Implicit />
+                </Dependencies>
+              </Properties>
+              <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+            </Node>
+            <Node ToolID="17">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+                <Position x="942" y="402" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <AutoResetMode>ByName</AutoResetMode>
+                  <MultiMetaInfo>
+                    <MetaInfo name="#1">
+                      <RecordInfo>
+                        <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" column="1" />
+                        <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" column="2" />
+                      </RecordInfo>
+                    </MetaInfo>
+                    <MetaInfo name="#2">
+                      <RecordInfo>
+                        <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" column="1" />
+                        <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" column="2" />
+                      </RecordInfo>
+                    </MetaInfo>
+                    <MetaInfo name="#3">
+                      <RecordInfo>
+                        <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" column="1" />
+                        <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" column="2" />
+                      </RecordInfo>
+                    </MetaInfo>
+                  </MultiMetaInfo>
+                  <ByName_ErrorMode>Warning</ByName_ErrorMode>
+                  <ByName_OutputMode>All</ByName_OutputMode>
+                  <Mode>ManualDelayed</Mode>
+                  <SetOutputOrder value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+            </Node>
+            <Node ToolID="18">
+              <GuiSettings>
+                <Position x="1086" y="258" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="target.level" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <Dependencies>
+                  <Implicit />
+                </Dependencies>
+                <MetaInfo connection="predictions">
+                  <RecordInfo>
+                    <Field name="Actual" size="1073741823" source="R-DATA:" type="V_WString" />
+                    <Field name="Tree" size="1073741823" source="R-DATA:" type="V_WString" />
+                    <Field name="Forest" size="1073741823" source="R-DATA:" type="V_WString" />
+                    <Field name="Boost" size="1073741823" source="R-DATA:" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo connection="error_measures">
+                  <RecordInfo>
+                    <Field name="Model" size="1073741823" source="R-DATA:" type="V_WString" />
+                    <Field name="Accuracy" source="R-DATA:" type="Double" />
+                    <Field name="Accuracy_1" source="R-DATA:" type="Double" />
+                    <Field name="Accuracy_2" source="R-DATA:" type="Double" />
+                    <Field name="Accuracy_3" source="R-DATA:" type="Double" />
+                    <Field name="F1" source="R-DATA:" type="Double" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo connection="Report">
+                  <RecordInfo>
+                    <Field name="Group" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+                    <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings Macro="Model Comparison.yxmc" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="27" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Estimation" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Estimation" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Estimation" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Validation" />
+      <Destination ToolID="18" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Models" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Report" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task 2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
